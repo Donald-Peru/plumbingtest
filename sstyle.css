@@ -36,7 +36,8 @@ a:hover {
    Header
 ========================= */
 header {
-    background: linear-gradient(135deg, #00d2ff, #293856);
+    background: linear-gradient(135deg, #293856 0%, transparent 100%);
+};
     color: white;
     padding: 25px 0;
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
@@ -281,6 +282,7 @@ footer {
         font-size: 2rem;
     }
 }
+
 
 
 

@@ -22,7 +22,14 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
+a {
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
 
+a:hover {
+    opacity: 0.8;
+}
 /* =========================
    Header (identical to homepage)
 ========================= */
@@ -206,3 +213,4 @@ footer {
     gap: 12px;
   }
 }
+

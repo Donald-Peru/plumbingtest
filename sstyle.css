@@ -37,7 +37,6 @@ a:hover {
 ========================= */
 header {
     background: linear-gradient(135deg, #293856 0%, transparent 100%);
-};
     color: white;
     padding: 25px 0;
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
@@ -45,7 +44,6 @@ header {
     top: 0;
     z-index: 1000;
 }
-
 .header-flex {
     display: flex;
     justify-content: space-between;
@@ -282,6 +280,7 @@ footer {
         font-size: 2rem;
     }
 }
+
 
 
 

@@ -53,9 +53,20 @@ header {
 }
 
 .logo {
-    font-size: 2rem;
-    font-weight: 700;
-    letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo img {
+  height: 45px;        /* adjust based on your logo size */
+  width: auto;
+  display: block;
 }
 
 .menu {
@@ -270,4 +281,5 @@ footer {
         font-size: 2rem;
     }
 }
+
 

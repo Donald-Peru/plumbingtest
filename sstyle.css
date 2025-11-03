@@ -79,7 +79,9 @@ header {
    Hero Section
 ========================= */
 .hero {
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1581091012184-2f8c31f3f1c0') center/cover no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                url('https://images.unsplash.com/photo-1581091012184-2f8c31f3f1c0') 
+                center/cover no-repeat;
     color: #fff;
     text-align: center;
     padding: 150px 20px 100px;
@@ -140,6 +142,15 @@ header {
     margin-right: auto;
 }
 
+/* ✅ Fixed spacing for the “Why Publish With Us?” heading */
+#feature-business h3 {
+    margin: 40px 0 25px;
+    text-align: center;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
 .feature-business ul {
     list-style: none;
     padding-left: 0;
@@ -197,7 +208,7 @@ header {
 }
 
 .blog h3 {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     color: #fff;
 }
 

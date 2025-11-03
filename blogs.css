@@ -9,13 +9,22 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #0e0e0e; /* same as homepage */
+  background-color: #343a40; /* matches homepage */
   color: #eee;
   line-height: 1.6;
 }
 
 /* =========================
-   Header (matches homepage)
+   Container
+========================= */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* =========================
+   Header (identical to homepage)
 ========================= */
 header {
   background: linear-gradient(135deg, #293856 0%, transparent 100%);
@@ -32,9 +41,6 @@ header {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 .logo {
@@ -43,6 +49,7 @@ header {
   gap: 10px;
   font-size: 2rem;
   font-weight: 700;
+  letter-spacing: 1px;
   color: #fff;
   text-decoration: none;
 }
@@ -67,8 +74,7 @@ header {
   transition: all 0.3s ease;
 }
 
-.menu li a:hover,
-.menu li a.active {
+.menu li a:hover {
   background-color: rgba(255,255,255,0.2);
 }
 

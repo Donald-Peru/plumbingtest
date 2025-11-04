@@ -60,6 +60,7 @@ header {
   letter-spacing: 1px;
   color: #fff;
   text-decoration: none;
+  font-family: 'Playfair Display', serif; /* added font */
 }
 
 .logo img {
@@ -280,6 +281,7 @@ footer {
         font-size: 2rem;
     }
 }
+
 
 
 

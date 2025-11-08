@@ -66,7 +66,7 @@ header {
   letter-spacing: 1px;
   color: #fff;
   text-decoration: none;
-  font-family: 'DM Serif Display', serif; /* elegant, premium font */
+  font-family: 'DM Serif Display', serif; /* match preferred style */
 }
 .logo img {
   height: 45px;        /* adjust based on your logo size */
@@ -253,6 +253,7 @@ footer {
     font-size: 2rem;
   }
 }
+
 
 
 

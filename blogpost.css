@@ -1,7 +1,11 @@
 /* =========================
-   Global & Layout
+   Font Imports (same as preferred)
 ========================= */
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* =========================
+   Global Styles
+========================= */
 * {
   margin: 0;
   padding: 0;
@@ -14,15 +18,23 @@ body {
   color: #eee;
   line-height: 1.6;
 }
+
 a {
   text-decoration: none;
   transition: all 0.3s ease;
+  color: inherit;
 }
 
-a:hover {
+a:hover,
+a:focus {
+  text-decoration: none;
   opacity: 0.8;
+  outline: none;
 }
 
+/* =========================
+   Container
+========================= */
 .container {
   width: 90%;
   max-width: 1200px;
@@ -42,20 +54,11 @@ header {
   z-index: 1000;
 }
 
-header {
-    background: linear-gradient(135deg, #293856 0%, transparent 100%);
-    color: white;
-    padding: 25px 0;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
 .header-flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -67,34 +70,32 @@ header {
   letter-spacing: 1px;
   color: #fff;
   text-decoration: none;
-  font-family: 'DM Serif Display', serif; /* match preferred style */
+  font-family: 'DM Serif Display', serif;
 }
+
 .logo img {
-  height: 45px;        /* adjust based on your logo size */
+  height: 45px;
   width: auto;
   display: block;
 }
+
 .menu {
   list-style: none;
   display: flex;
   gap: 25px;
 }
 
-.menu {
-    list-style: none;
-    display: flex;
-    gap: 25px;
-}
-
 .menu li a {
-    color: #fff;
-    font-weight: 500;
-    padding: 8px 12px;
-    border-radius: 5px;
+  color: #fff;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.25s ease, opacity 0.25s ease;
 }
 
 .menu li a:hover {
-    background-color: rgba(255,255,255,0.2);
+  background-color: rgba(255, 255, 255, 0.2);
+  text-decoration: none;
 }
 
 /* =========================
@@ -228,6 +229,26 @@ blockquote {
 }
 
 /* =========================
+   Buttons (added for consistency)
+========================= */
+.btn {
+  background-color: #1abc9c;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 15px rgba(26, 188, 156, 0.5);
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #16a085;
+  transform: translateY(-3px);
+}
+
+/* =========================
    Footer
 ========================= */
 footer {
@@ -253,10 +274,14 @@ footer {
   .blog-content h1 {
     font-size: 2rem;
   }
+
+  .header-flex {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .menu {
+    flex-direction: column;
+    gap: 12px;
+  }
 }
-
-
-
-
-
-

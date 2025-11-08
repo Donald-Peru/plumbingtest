@@ -218,7 +218,7 @@ blockquote {
 .sidebar-img {
   width: 100%;
   height: auto;
-  max-height: 220px;
+  max-height: 5000px;
   object-fit: cover;
   display: block;
   border-radius: 10px;
@@ -294,5 +294,6 @@ footer {
     gap: 12px;
   }
 }
+
 
 

@@ -14,7 +14,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #343a40;
+  background-color: #202a33;
   color: #eee;
   line-height: 1.6;
 }
@@ -294,6 +294,7 @@ footer {
     gap: 12px;
   }
 }
+
 
 
 

@@ -1,3 +1,11 @@
+/* =========================
+   Font Imports
+========================= */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* =========================
+   Global Styles
+========================= */
 * {
   margin: 0;
   padding: 0;
@@ -6,29 +14,30 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #343a40; /* matches homepage */
+  background-color: #343a40;
   color: #eee;
   line-height: 1.6;
 }
 
-/* =========================
-   Links (match homepage)
-========================= */
 a {
   text-decoration: none;
   transition: all 0.3s ease;
+  color: inherit;
 }
 
-a:hover {
+a:hover,
+a:focus {
+  text-decoration: none;
   opacity: 0.8;
+  outline: none;
 }
 
 /* =========================
-   Header (matches homepage)
+   Header
 ========================= */
 header {
   background: linear-gradient(135deg, #293856 0%, transparent 100%);
-  color: white;
+  color: #fff;
   padding: 25px 0;
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
   position: sticky;
@@ -46,14 +55,17 @@ header {
   margin: 0 auto;
 }
 
+/* Logo uses DM Serif Display */
 .logo {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 2rem;
-  font-weight: 700;
+  font-size: 1.8rem;
+  font-weight: 900;
+  letter-spacing: 1px;
   color: #fff;
   text-decoration: none;
+  font-family: 'DM Serif Display', serif;
 }
 
 .logo img {
@@ -62,10 +74,12 @@ header {
   display: block;
 }
 
+/* Menu links use Poppins */
 .menu {
   list-style: none;
   display: flex;
   gap: 25px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .menu li a {
@@ -73,12 +87,14 @@ header {
   font-weight: 500;
   padding: 8px 12px;
   border-radius: 5px;
-  transition: all 0.3s ease;
+  transition: background-color 0.25s ease, opacity 0.25s ease;
+  font-family: 'Poppins', sans-serif;
 }
 
 .menu li a:hover,
 .menu li a.active {
   background-color: rgba(255,255,255,0.2);
+  text-decoration: none;
 }
 
 /* =========================
@@ -96,9 +112,9 @@ header {
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 60px;
+  font-family: 'Poppins', sans-serif;
 }
 
-/* Blog Grid */
 .blog-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -106,19 +122,18 @@ header {
 }
 
 .blog-box {
-  background-color: #1f1f1f; /* same tone as homepage’s blog cards */
+  background-color: #1f1f1f;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .blog-box:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.6);
 }
 
-/* Blog Images */
 .blog-box img {
   width: 100%;
   height: 180px;
@@ -126,7 +141,6 @@ header {
   display: block;
 }
 
-/* Blog Text */
 .blog-content {
   padding: 20px;
   text-align: center;
@@ -136,16 +150,18 @@ header {
   color: #fff;
   font-size: 1.3rem;
   margin-bottom: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
 }
 
 .blog-content p {
   color: #ccc;
   font-size: 0.95rem;
   margin-bottom: 20px;
-  line-height: 1.5;
+  line-height: 1.8;
+  font-family: 'Poppins', sans-serif;
 }
 
-/* Read More Button */
 .btn-read {
   display: inline-block;
   background-color: #1abc9c;
@@ -156,6 +172,7 @@ header {
   text-transform: uppercase;
   letter-spacing: 1px;
   transition: all 0.3s ease;
+  font-family: 'Poppins', sans-serif;
 }
 
 .btn-read:hover {
@@ -164,7 +181,7 @@ header {
 }
 
 /* =========================
-   Footer (same as homepage)
+   Footer
 ========================= */
 footer {
   background-color: #111;
@@ -173,6 +190,7 @@ footer {
   padding: 30px 0;
   margin-top: 80px;
   font-size: 0.9rem;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* =========================

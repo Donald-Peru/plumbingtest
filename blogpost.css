@@ -33,11 +33,20 @@ header {
   z-index: 1000;
 }
 
+header {
+    background: linear-gradient(135deg, #293856 0%, transparent 100%);
+    color: white;
+    padding: 25px 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
 .header-flex {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .logo {
@@ -49,9 +58,13 @@ header {
   letter-spacing: 1px;
   color: #fff;
   text-decoration: none;
-  font-family: 'DM Serif Display', serif;
+  font-family: 'DM Serif Display', serif; /* elegant, premium font */
 }
-
+.logo img {
+  height: 45px;        /* adjust based on your logo size */
+  width: auto;
+  display: block;
+}
 .menu {
   list-style: none;
   display: flex;
@@ -227,3 +240,4 @@ footer {
     font-size: 2rem;
   }
 }
+

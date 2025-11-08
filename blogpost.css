@@ -13,6 +13,14 @@ body {
   color: #eee;
   line-height: 1.6;
 }
+a {
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  opacity: 0.8;
+}
 
 .container {
   width: 90%;
@@ -245,6 +253,7 @@ footer {
     font-size: 2rem;
   }
 }
+
 
 
 

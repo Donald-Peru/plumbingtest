@@ -108,7 +108,7 @@ header {
 
 .blog-container h2 {
   text-align: center;
-  color: #1abc9c;
+  color: #202a33;
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 60px;
@@ -227,5 +227,6 @@ footer {
     gap: 12px;
   }
 }
+
 
 

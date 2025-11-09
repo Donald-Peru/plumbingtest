@@ -147,7 +147,7 @@ header {
 }
 
 .blog-content h3 {
-  color: #fff;
+  color: #000;
   font-size: 1.3rem;
   margin-bottom: 12px;
   font-family: 'Poppins', sans-serif;
@@ -155,7 +155,7 @@ header {
 }
 
 .blog-content p {
-  color: #ccc;
+  color: #000;
   font-size: 0.95rem;
   margin-bottom: 20px;
   line-height: 1.8;
@@ -227,6 +227,7 @@ footer {
     gap: 12px;
   }
 }
+
 
 
 

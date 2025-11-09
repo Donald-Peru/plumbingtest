@@ -122,7 +122,7 @@ header {
 }
 
 .blog-box {
-  background-color: #c2d3e4;
+  background-color: #ffffff;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 8px 20px rgba(0,0,0,0.5);
@@ -147,7 +147,7 @@ header {
 }
 
 .blog-content h3 {
-  color: #000;
+  color: #000000;
   font-size: 1.3rem;
   margin-bottom: 12px;
   font-family: 'Poppins', sans-serif;
@@ -155,7 +155,7 @@ header {
 }
 
 .blog-content p {
-  color: #000;
+  color: #000000;
   font-size: 0.95rem;
   margin-bottom: 20px;
   line-height: 1.8;
@@ -227,6 +227,7 @@ footer {
     gap: 12px;
   }
 }
+
 
 
 

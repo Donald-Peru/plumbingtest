@@ -292,6 +292,7 @@ blockquote {
 .footer-text {
   margin: 0;
 }
+
 /* =========================
    Responsive
 ========================= */
@@ -324,13 +325,9 @@ blockquote {
     align-items: flex-start;
     gap: 10px;
   }
+
+  .footer-list {
+    flex-direction: column; /* Stack list items vertically */
+    gap: 8px;               /* Optional: smaller gap for vertical layout */
+  }
 }
-
-
-
-
-
-
-
-
-

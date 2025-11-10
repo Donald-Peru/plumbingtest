@@ -260,15 +260,16 @@ blockquote {
    Footer
 ========================= */
 .footer {
-  display: flex;                  /* Enables Flexbox layout */
-  justify-content: space-between; /* Pushes items to opposite ends */
-  align-items: center;            /* Vertically centers them */
+  display: flex;                  /* Enables side-by-side layout */
+  justify-content: space-between; /* Pushes content to opposite ends */
+  align-items: center;            /* Vertically centers content */
+  flex-wrap: wrap;                /* Prevents overflow if screen is small */
   padding: 20px;
   background-color: #222;
   color: #fff;
 }
 
-/* Style for the list on the left */
+/* Reset default UL styles */
 .footer-list {
   list-style: none;
   display: flex;
@@ -277,6 +278,7 @@ blockquote {
   padding: 0;
 }
 
+/* Link styling */
 .footer-list a {
   color: #fff;
   text-decoration: none;
@@ -286,7 +288,7 @@ blockquote {
   text-decoration: underline;
 }
 
-/* Style for the paragraph on the right */
+/* Paragraph styling */
 .footer-text {
   margin: 0;
 }
@@ -316,6 +318,7 @@ blockquote {
     gap: 12px;
   }
 }
+
 
 
 

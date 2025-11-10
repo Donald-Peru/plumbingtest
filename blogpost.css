@@ -260,20 +260,21 @@ blockquote {
    Footer
 ========================= */
 .footer {
-  display: flex;                  
-  justify-content: space-between; /* Left: list, Right: paragraph */
-  align-items: flex-start;        /* Top-align list and paragraph */
-  flex-wrap: wrap;                
+  display: flex;
+  justify-content: space-between;  /* List left, paragraph right */
+  align-items: flex-start;          /* Align top of list and paragraph */
+  flex-wrap: wrap;
   padding: 20px;
   background-color: #222;
   color: #fff;
+  min-height: 150px;                /* Ensure footer covers tall vertical list */
 }
 
 .footer-list {
   list-style: none;
   display: flex;
-  flex-direction: column;         /* Vertical list items */
-  gap: 10px;                      
+  flex-direction: column;           /* Vertical list items */
+  gap: 10px;
   margin: 0;
   padding: 0;
 }
@@ -289,7 +290,9 @@ blockquote {
 
 .footer-text {
   margin: 0;
-  align-self: flex-start;         /* Align paragraph top with list */
+  align-self: flex-start;           /* Align paragraph top with list */
+  display: flex;
+  align-items: center;              /* Vertically center text if needed */
 }
 
 /* =========================

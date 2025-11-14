@@ -14,7 +14,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #202a33;
+  background-color: #ffff;
   color: #eee;
   line-height: 1.6;
 }
@@ -118,7 +118,7 @@ header {
 ========================= */
 .blog-content h1 {
   font-size: 2.5rem;
-  color: #1abc9c;
+  color: #000000;
   margin-bottom: 10px;
   font-weight: 700;
 }
@@ -137,7 +137,7 @@ header {
 }
 
 .blog-content h2 {
-  color: #1abc9c;
+  color: #000000;
   font-size: 1.6rem;
   margin-top: 40px;
   margin-bottom: 15px;
@@ -151,8 +151,8 @@ header {
 }
 
 blockquote {
-  background-color: #1f1f1f;
-  border-left: 4px solid #1abc9c;
+  background-color: #ff6900;
+  border-left: 4px solid #000000;
   padding: 20px;
   font-style: italic;
   color: #ccc;
@@ -165,7 +165,7 @@ blockquote {
    Sidebar
 ========================= */
 .sidebar {
-  background-color: #1f1f1f;
+  background-color: #ff6900;
   border-radius: 12px;
   padding: 25px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.5);
@@ -176,10 +176,10 @@ blockquote {
 }
 
 .widget h3 {
-  color: #1abc9c;
+  color: #000000;
   font-size: 1.4rem;
   margin-bottom: 15px;
-  border-bottom: 2px solid #1abc9c;
+  border-bottom: 2px solid #000000;
   padding-bottom: 8px;
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
@@ -202,7 +202,7 @@ blockquote {
 }
 
 .widget ul li a {
-  color: #1abc9c;
+  color: #000000;
   transition: all 0.3s ease;
   font-weight: 500;
   font-family: 'Poppins', sans-serif;
@@ -239,7 +239,7 @@ blockquote {
    Buttons
 ========================= */
 .btn {
-  background-color: #1abc9c;
+  background-color: #000000;
   color: #fff;
   padding: 15px 30px;
   border-radius: 50px;
@@ -333,3 +333,4 @@ blockquote {
     gap: 10px;
   }
 }
+

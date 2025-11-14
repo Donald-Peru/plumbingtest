@@ -64,7 +64,7 @@ header {
 /* Logo uses serif font */
 .logo {
   display: flex;
-  align-items: center;
+  align-items: left;
   gap: 10px;
   font-size: 1.8rem;
   font-weight: 900;
@@ -76,7 +76,7 @@ header {
 
 .logo img {
   height: 45px;
-  width: auto;
+  width: 500px;
   display: block;
 }
 
@@ -333,6 +333,7 @@ blockquote {
     gap: 10px;
   }
 }
+
 
 
 

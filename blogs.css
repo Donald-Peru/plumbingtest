@@ -83,7 +83,7 @@ header {
 }
 
 .menu li a {
-  color: #fff;
+  color: #000;
   font-weight: 500;
   padding: 8px 12px;
   border-radius: 5px;
@@ -227,6 +227,7 @@ footer {
     gap: 12px;
   }
 }
+
 
 
 

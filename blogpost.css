@@ -15,7 +15,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #ffff;
-  color: #eee;
+  color: #0000;
   line-height: 1.6;
 }
 
@@ -46,7 +46,7 @@ a:focus {
 ========================= */
 header {
   background: linear-gradient(135deg, #293856 0%, transparent 100%);
-  color: #fff;
+  color: #0000;
   padding: 25px 0;
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
   position: sticky;
@@ -89,7 +89,7 @@ header {
 }
 
 .menu li a {
-  color: #fff;
+  color: #0000;
   font-weight: 500;
   padding: 8px 12px;
   border-radius: 5px;
@@ -176,7 +176,7 @@ blockquote {
 }
 
 .widget h3 {
-  color: #000000;
+  color: #FFFFFF;
   font-size: 1.4rem;
   margin-bottom: 15px;
   border-bottom: 2px solid #000000;
@@ -186,7 +186,7 @@ blockquote {
 }
 
 .widget p {
-  color: #ccc;
+  color: #FFFFFF;
   font-size: 0.95rem;
   line-height: 1.7;
   font-family: 'Poppins', sans-serif;
@@ -202,14 +202,14 @@ blockquote {
 }
 
 .widget ul li a {
-  color: #000000;
+  color: #FFFFFF;
   transition: all 0.3s ease;
   font-weight: 500;
   font-family: 'Poppins', sans-serif;
 }
 
 .widget ul li a:hover {
-  color: #16a085;
+  color: #0000;
 }
 
 /* =========================
@@ -333,4 +333,5 @@ blockquote {
     gap: 10px;
   }
 }
+
 

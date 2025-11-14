@@ -146,7 +146,7 @@ header {
 .feature-business p {
     margin-bottom: 25px;
     text-align: center;
-    color: #ccc;
+    color: #000;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
@@ -223,7 +223,7 @@ header {
 }
 
 .blog p {
-    color: #ccc;
+    color: #000;
 }
 
 /* =========================
@@ -280,6 +280,7 @@ footer {
         font-size: 2rem;
     }
 }
+
 
 
 

@@ -172,7 +172,7 @@ header {
     margin-bottom: 15px;
     padding-left: 20px;
     position: relative;
-    color: #eee;
+    color: #000;
 }
 
 .feature-business ul li::before {
@@ -280,6 +280,7 @@ footer {
         font-size: 2rem;
     }
 }
+
 
 
 

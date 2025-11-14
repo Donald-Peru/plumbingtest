@@ -76,7 +76,7 @@ header {
 
 .logo img {
   height: 45px;
-  width: auto;
+  width: 500px;
   display: block;
 }
 
@@ -333,6 +333,7 @@ blockquote {
     gap: 10px;
   }
 }
+
 
 
 

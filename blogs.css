@@ -164,7 +164,7 @@ header {
 
 .btn-read {
   display: inline-block;
-  background-color: #1abc9c;
+  background-color: #ff6900;
   color: #fff;
   padding: 10px 22px;
   border-radius: 50px;
@@ -176,7 +176,7 @@ header {
 }
 
 .btn-read:hover {
-  background-color: #16a085;
+  background-color: #ff5500;
   transform: translateY(-2px);
 }
 
@@ -227,6 +227,7 @@ footer {
     gap: 12px;
   }
 }
+
 
 
 

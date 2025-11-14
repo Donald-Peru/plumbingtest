@@ -145,7 +145,7 @@ header {
 }
 
 .blog-content p {
-  color: #ddd;
+  color: #0000;
   margin-bottom: 18px;
   line-height: 1.8;
 }
@@ -333,5 +333,6 @@ blockquote {
     gap: 10px;
   }
 }
+
 
 

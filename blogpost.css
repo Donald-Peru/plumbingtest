@@ -15,7 +15,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #ffff;
-  color: #0000;
+  color: #000;
   line-height: 1.6;
 }
 
@@ -46,7 +46,7 @@ a:focus {
 ========================= */
 header {
   background: linear-gradient(135deg, #293856 0%, transparent 100%);
-  color: #0000;
+  color: #000;
   padding: 25px 0;
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
   position: sticky;
@@ -69,7 +69,7 @@ header {
   font-size: 1.8rem;
   font-weight: 900;
   letter-spacing: 1px;
-  color: #000000;
+  color: #00000;
   text-decoration: none;
   font-family: 'DM Serif Display', serif;
 }
@@ -89,7 +89,7 @@ header {
 }
 
 .menu li a {
-  color: #000000;
+  color: #00000;
   font-weight: 500;
   padding: 8px 12px;
   border-radius: 5px;
@@ -118,13 +118,13 @@ header {
 ========================= */
 .blog-content h1 {
   font-size: 2.5rem;
-  color: #000000;
+  color: #00000;
   margin-bottom: 10px;
   font-weight: 700;
 }
 
 .post-meta {
-  color: #000000;
+  color: #00000;
   font-size: 0.95rem;
   margin-bottom: 25px;
 }
@@ -137,7 +137,7 @@ header {
 }
 
 .blog-content h2 {
-  color: #000000;
+  color: #00000;
   font-size: 1.6rem;
   margin-top: 40px;
   margin-bottom: 15px;
@@ -152,7 +152,7 @@ header {
 
 blockquote {
   background-color: #ff6900;
-  border-left: 4px solid #000000;
+  border-left: 4px solid #00000;
   padding: 20px;
   font-style: italic;
   color: #ccc;
@@ -179,7 +179,7 @@ blockquote {
   color: #FFFFFF;
   font-size: 1.4rem;
   margin-bottom: 15px;
-  border-bottom: 2px solid #000000;
+  border-bottom: 2px solid #00000;
   padding-bottom: 8px;
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
@@ -209,7 +209,7 @@ blockquote {
 }
 
 .widget ul li a:hover {
-  color: #0000;
+  color: #000;
 }
 
 /* =========================
@@ -239,7 +239,7 @@ blockquote {
    Buttons
 ========================= */
 .btn {
-  background-color: #000000;
+  background-color: #00000;
   color: #fff;
   padding: 15px 30px;
   border-radius: 50px;
@@ -333,6 +333,7 @@ blockquote {
     gap: 10px;
   }
 }
+
 
 
 

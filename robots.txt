@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://renomarketing.pages.dev/sitemap.xml
